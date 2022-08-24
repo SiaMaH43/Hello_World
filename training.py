@@ -1,10 +1,10 @@
-# d = input('Введите текст: ')
+d = input('Введите текст: ')
 
-f = open('VIRUS.txt', 'r')
-# f.write(d + '\n')
-# # print(f.read())
-for h in f:
-    print(h, end="")
+f = open('VIRUS.txt', 'a')
+f.write(d + '\n')
+# print(f.read())
+# for h in f:
+#     print(h, end="")
 
 
 f.close()
